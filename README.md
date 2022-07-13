@@ -4,4 +4,5 @@ This is where I am keeping any of the projects that I create while on my codecad
 
 # Projects:
   - Mixed Messages
+    - [More here](https://discuss.codecademy.com/t/about-the-portfolio-project-mixed-messages-category/535742)
   - Style Design Guide
