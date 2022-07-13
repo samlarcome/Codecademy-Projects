@@ -1,0 +1,363 @@
+body {
+    background-color: #fffffe;
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid black;
+    /* border-radius: 5px; */
+    width: 100%;
+    background-color: #929292;
+    font-size: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+header ul {
+    display: inline-block;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+header li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 1.5rem;
+}
+
+nav {
+    float:right;
+}
+
+@media only screen and (max-width: 1200px){
+    header {
+        font-size: 15px;
+    }
+    
+    header li {
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0px 10px;
+    }
+    
+    }
+
+@media only screen and (max-width: 900px){
+    header {
+        font-size: 12px;
+    }
+    
+    header li {
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    header h1, header ul {
+        margin: auto;
+        padding: 5px;
+        display: inline-block;
+    }
+    
+    }
+
+@media only screen and (max-width: 570px){
+    header {
+        font-size: 10px;
+    }
+    
+    header li {
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 0px 10px;
+    }
+
+    header h1, header ul {
+        margin: auto;
+        padding: 5px;
+        display: inline-block;
+    }
+    
+    }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section div {
+    background-color: #929292;
+    width: 75vw;
+    margin: 0 auto;
+} */
+
+/* .title-box {
+    text-align: center;
+} */
+
+/* Boxes that hold CSS references */
+.holder {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+/*  */
+section .box {
+    background-color: #929292;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+}
+
+.section-title {
+    position: relative;
+    top: 20px;
+}
+
+/* Box that holds the title */
+.title-box {
+    padding: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.title-underline {
+    width: 7rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    background: black;
+}
+
+/* Box that holds the colors */
+.color-box {
+    padding: 40px;
+    text-align: center;
+}
+
+.color {
+    background-color: white;
+    width: 15rem;
+    height: 12rem;
+    display: inline-block;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+.sub-color {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    top: 35%;
+    margin: 0 5px;
+}
+/* First Color */
+#one-background {
+    background: #0f0e17;
+}
+#one-one {
+    background: #ff8906;
+}
+#one-two, #two-two, #three-two {
+    background: #fffffe;
+}
+#one-three {
+    background: #a7a9be;
+}
+/* Second Color */
+#two-background {
+    background: #232946;
+}
+#two-one {
+    background: #eebbc3
+}
+#two-three {
+    background: #b8c1ec;
+}
+/* Third Color */
+#three-background {
+    background: #16161a;
+}
+#three-one {
+    background: #7f5af0;
+}
+#three-three {
+    background: #94a1b2;
+}
+/* 4th Color */
+#four-background {
+    background: #fef6e4;
+}
+#four-one {
+    background: #f582ae;
+}
+#four-two {
+    background: #001858;
+}
+#four-three {
+    background: #172c66;
+}
+/* 5th Color */
+#five-background {
+    background: #fffffe;
+}
+#five-one {
+    background: #3da9fc;
+}
+#five-two {
+    background: #094067;
+}
+#five-three {
+    background: #5f6c7b;
+}
+
+/* Fonts */
+.fonts-box {
+    padding: 100px;
+    text-align: center;
+}
+
+
+/* BUTTONS */
+.buttons-box {
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* FORUMS */
+
+.forum-box {
+    padding: 50px;
+}
+
+.form {
+    background: white;
+    max-width: 600px;
+    border-radius: .25rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+    padding: 2rem 2.5rem;
+    margin: 3rem auto;
+}
+
+.form-label {
+    display: block;
+    font-size: 0.7em;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 0.375rem, 0.75rem;
+    border-radius: .25rem;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+}
+
+.form-row {
+    margin-bottom: 1rem;
+}
+
+.form-textarea{
+    height: 7rem;
+}
+
+::placeholder {
+    font-family: inherit;
+    color: #64748b;
+}
+
+.form-alert{
+    color: #842029;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+#name {
+    padding: 4px;
+}
+
+.buttons .btn {
+    margin: 5px 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+
+.btn-one {
+    background: #8c6bf2;
+    color: white;
+}
+
+.btn-one:hover {
+    background: #7251d8;
+}
+
+.btn-two {
+    background: #b29cf6;
+    color: #4c3690;
+}
+
+.btn-two:hover {
+    background: #593fa8;
+    color: #b29cf6;
+}
+
+.btn-three {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px;
+    background: #b29cf6;
+    color: #fff;
+  }
+  
+  .btn-three:active {
+    background: #8c6bf2;
+    padding-top: 8px;
+    box-shadow: 0px 0px;
+  }
+
+  .fontbox {
+    padding: 7px;
+    margin: 20px 20px 20px 20px;
+    min-height: 100px;
+    min-width: 20%;
+    background-color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    /* border-left: 2px solid black;  */
+}
+
+.source-code-pro {
+    font-family: "Source Code Pro";
+}
+
+.poppins {
+    font-family: "Poppins";
+}
+
+.nunito {
+    font-family: "Nunito Sans";
+}
+
+.merriweather {
+    font-family: "Merriweather Sans";
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 700;
+}
