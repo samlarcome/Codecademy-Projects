@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide System</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styleGuideChallenge.css">
+    <!-- Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Merriweather Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Source Code Pro -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Nunito Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Style Guide System</h1>
+        <nav>
+            <ul id="navigation">
+                <li><a href="#titles">Titles</a></li>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#forum-link">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="titles holder" id="titles">
+        <h1 class="section-title">Titles</h1>
+        <div class="title-box box">
+            <h2>This is the title</h2>
+            <div class="title-underline">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="colors holder" id="colors">
+        <h1 class="section-title">Colors</h1>
+        <div class="color-box box">
+            <div class="color" id="one-background">
+                <div class="sub-color" id="one-one"></div>
+                <div class="sub-color" id="one-two"></div>
+                <div class="sub-color" id="one-three"></div>
+            </div>
+            <div class="color" id="two-background">
+                <div class="sub-color" id="two-one"></div>
+                <div class="sub-color" id="two-two"></div>
+                <div class="sub-color" id="two-three"></div>
+            </div>
+            <div class="color" id="three-background">
+                <div class="sub-color" id="three-one"></div>
+                <div class="sub-color" id="three-two"></div>
+                <div class="sub-color" id="three-three"></div>
+            </div>
+            <div class="color" id="four-background">
+                <div class="sub-color" id="four-one"></div>
+                <div class="sub-color" id="four-two"></div>
+                <div class="sub-color" id="four-three"></div>
+            </div>
+            <div class="color" id="five-background">
+                <div class="sub-color" id="five-one"></div>
+                <div class="sub-color" id="five-two"></div>
+                <div class="sub-color" id="five-three"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="fonts holder" id="fonts">
+        <h1 class="section-title">Fonts</h1>
+        <div class="fonts-box box">
+
+            <div class="fontbox source-code-pro">
+                <p class="font-label source-code-pro">Source Code Pro</p>
+                <p class="regular source-code-pro">Almost before we knew it, we had left the ground.</p>
+                <p class="bold source-code-pro">Almost before we knew it, we had left the ground.</p>
+                <p class="italic source-code-pro">Almost before we knew it, we had left the ground.</p>
+            </div>
+            <div class="fontbox nunito">
+                <p class="font-label nunito">Nunito Sans</p>
+                <p class="regular nunito">Almost before we knew it, we had left the ground.</p>
+                <p class="bold nunito">Almost before we knew it, we had left the ground.</p>
+                <p class="italic nunito">Almost before we knew it, we had left the ground.</p>
+            </div>
+            <div class="fontbox poppins">
+                <p class="font-label poppins">Poppins</p>
+                <p class="regular poppins">Almost before we knew it, we had left the ground.</p>
+                <p class="bold poppins">Almost before we knew it, we had left the ground.</p>
+                <p class="italic poppins">Almost before we knew it, we had left the ground.</p>
+            </div>
+            <div class="fontbox merriweather">
+                <p class="font-label merriweather">Merriweather</p>
+                <p class="regular merriweather">Almost before we knew it, we had left the ground.</p>
+                <p class="bold merriweather">Almost before we knew it, we had left the ground.</p>
+                <p class="italic merriweather">Almost before we knew it, we had left the ground.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="buttons holder" id="buttons">
+        <h1 class="section-title">Buttons</h1>
+        <div class="buttons-box box">
+
+            <button class='btn btn-one' type="button">Button</button>
+            <button class='btn btn-two' type="button">Button</button>
+            <button class='btn btn-three' type="button">Button</button>
+
+        </div>
+
+    </section>
+
+    <section class="forum holder" id="forum-link">
+        <h1 class="section-title">Forum</h1>
+        <div class="forum-box box">
+            <form class="form">
+                <h4>Contact form</h4>
+                <div class="form-row">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" placeholder="hello there" id="name" class="form-input">
+                </div>
+                <div class="form-row">
+                    <label for="number" class="form-label">Number</label>
+                    <input type="number" id="number" class="form-input">
+                </div>
+                <div class="form-row">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input">
+                    <small class="form-alert">Please provide a value</small>
+                </div>
+                <div class="form-row">
+                    <label for="textarea" class="form-label">Text area</label>
+                    <textarea class="form-textarea">
+                         
+                    </textarea>
+                </div>
+                <button class="btn btn-block" type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+
+
+</body>
+</html>
