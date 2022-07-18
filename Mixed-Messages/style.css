@@ -1,0 +1,68 @@
+:root {
+  --bckgrd: #0f0e17;
+  --yellow: #feda4a;
+}
+
+body {
+  background-Color: var(--bckgrd);
+  background-image: url(https://cssanimation.rocks/demo/starwars/images/bg.jpg);
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#title-holder {
+  padding: .25rem;
+/*   border: .25em solid var(--headline);
+  border-radius: .75em; */
+  min-width: 10em;
+}
+
+#title-holder > h1 {
+  color: var(--yellow);
+  text-align: center;
+  padding: .25rem;
+  letter-spacing: 6px;
+}
+
+#display-holder {
+  margin-top: 3em;
+  height: 5em;
+/*   border: 0.25em solid var(--headline);
+  border-radius: .25em; */
+  min-width: 10em;
+}
+
+p {
+  text-align: center;
+  color: var(--yellow);
+  letter-spacing: 3px;
+  padding: 1em;
+}
+
+/* Parent */
+#button-holder {
+  display:flex;
+/*   background-color: var(--headline); */
+  margin-top: 3em;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 10em;
+}
+
+/* Child */
+button {
+  width: 25%;
+  padding: .75em;
+  border: .2em solid black;
+  border-radius: .2em;
+  min-width: 10em;
+  font-family: 'Pathway Gothic One', sans-serif;
+  background-color: var(--yellow);
+  font-size: 1em;
+}
+
+#reset-button{
+  display: none;
+  margin-top: 2em;
+}
